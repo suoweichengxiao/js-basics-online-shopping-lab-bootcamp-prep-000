@@ -86,7 +86,7 @@ return cart
 
 function placeOrder(cardNumber) {
   get cardNumber
-  if (cardNumber.length === 0 ) {
+  if (cardNumber === undefined ) {
     console.log(`Sorry, we don't have a credit card number on file for you.`);
   }
   else {
